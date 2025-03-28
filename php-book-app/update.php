@@ -32,7 +32,7 @@ if (isset($_POST['submit'])) {
 
         $count = $stmt_update->rowCount();
 
-        $message = "商品を{$count}件編集しました。";
+        $message = "書籍を{$count}件編集しました。";
 
         header("Location: read.php?message={$message}");
     } catch (PDOException $e) {
@@ -136,7 +136,7 @@ if (isset($_GET['id'])) {
             </article>
         </main>
         <footer>
-            <p class="copyright">&copy; 商品管理アプリ All rights reserved.</p>
+            <p class="copyright">&copy; 書籍管理アプリ All rights reserved.</p>
         </footer>
 
     </body>

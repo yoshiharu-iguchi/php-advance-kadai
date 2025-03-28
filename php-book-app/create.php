@@ -28,7 +28,7 @@ if (isset($_POST['submit'])) {
         // 追加した件数を取得する
         $count = $stmt_insert->rowCount();
 
-        $message = "商品を{$count}件登録しました。";
+        $message = "書籍を{$count}件登録しました。";
 
         // 商品一覧ページにリダイレクトさせる
         header("Location: read.php?message={$message}");

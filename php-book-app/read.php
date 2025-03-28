@@ -75,7 +75,7 @@ try {
                     echo "<p class='success'>{$_GET['message']}</p>";
                 }
                 ?>
-                <div class="products-ui">
+                <div class="books-ui">
                     <div>
                         <a href="read.php?order=desc&keyword=<?= $keyword ?>">
                             <img src="images/desc.png" alt="降順に並び替え" class="sort-img">
@@ -93,7 +93,7 @@ try {
                     </div>
                 <a href="create.php" class="btn">書籍登録</a>
                 </div>
-                <table class="products-table">
+                <table class="books-table">
                     <tr>
                         <th>書籍コード</th>
                         <th>書籍名</th>

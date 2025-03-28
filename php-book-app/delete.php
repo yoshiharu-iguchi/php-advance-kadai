@@ -18,7 +18,7 @@ try {
     // 削除した件数を取得する
     $count = $stmt_delete->rowCount();
 
-    $message = "商品を{$count}件削除しました。";
+    $message = "書籍を{$count}件削除しました。";
 
     header("Location: read.php?message={$message}");
 
